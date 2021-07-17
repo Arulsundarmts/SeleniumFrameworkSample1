@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-15T02:05:34Z" name="Default suite" finished-at="2021-07-15T02:05:48Z" duration-ms="14195">
+    <groups>
+    </groups>
+    <test started-at="2021-07-15T02:05:34Z" name="Default test" finished-at="2021-07-15T02:05:48Z" duration-ms="14195">
+      <class name="Maven1.TestNGDemoClass">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Maven1.TestNGDemoClass@1ebd319f]" started-at="2021-07-14T22:05:34Z" name="BrowserSetup" finished-at="2021-07-14T22:05:39Z" duration-ms="5551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="GoogleSearch()[pri:0, instance:Maven1.TestNGDemoClass@1ebd319f]" started-at="2021-07-14T22:05:39Z" name="GoogleSearch" finished-at="2021-07-14T22:05:41Z" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method signature="GoogleClick()[pri:1, instance:Maven1.TestNGDemoClass@1ebd319f]" started-at="2021-07-14T22:05:41Z" name="GoogleClick" finished-at="2021-07-14T22:05:44Z" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleClick -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:Maven1.TestNGDemoClass@1ebd319f]" started-at="2021-07-14T22:05:44Z" name="BrowserClose" finished-at="2021-07-14T22:05:48Z" duration-ms="4274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- Maven1.TestNGDemoClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

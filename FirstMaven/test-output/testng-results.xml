@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-15T02:05:34Z" name="Default suite" finished-at="2021-07-15T02:05:48Z" duration-ms="14195">
+  <suite started-at="2021-07-23T11:14:47Z" name="Suite" finished-at="2021-07-23T11:15:15Z" duration-ms="27435">
     <groups>
     </groups>
-    <test started-at="2021-07-15T02:05:34Z" name="Default test" finished-at="2021-07-15T02:05:48Z" duration-ms="14195">
+    <test started-at="2021-07-23T11:14:47Z" name="Test" finished-at="2021-07-23T11:15:15Z" duration-ms="27435">
       <class name="Maven1.TestNGDemoClass">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Maven1.TestNGDemoClass@1ebd319f]" started-at="2021-07-14T22:05:34Z" name="BrowserSetup" finished-at="2021-07-14T22:05:39Z" duration-ms="5551" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Maven1.TestNGDemoClass@313b2ea6]" started-at="2021-07-23T07:14:47Z" name="BrowserSetup" finished-at="2021-07-23T07:14:54Z" duration-ms="7084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="GoogleSearch()[pri:0, instance:Maven1.TestNGDemoClass@1ebd319f]" started-at="2021-07-14T22:05:39Z" name="GoogleSearch" finished-at="2021-07-14T22:05:41Z" duration-ms="1986" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:Maven1.TestNGExtentReports@6a2b953e]" started-at="2021-07-23T07:14:54Z" name="BrowserSetup" finished-at="2021-07-23T07:14:57Z" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="GoogleSearch()[pri:0, instance:Maven1.TestNGDemoClass@313b2ea6]" started-at="2021-07-23T07:14:57Z" name="GoogleSearch" finished-at="2021-07-23T07:15:03Z" duration-ms="5920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoogleSearch -->
-        <test-method signature="GoogleClick()[pri:1, instance:Maven1.TestNGDemoClass@1ebd319f]" started-at="2021-07-14T22:05:41Z" name="GoogleClick" finished-at="2021-07-14T22:05:44Z" duration-ms="2343" status="PASS">
+        <test-method signature="GoogleClick()[pri:1, instance:Maven1.TestNGDemoClass@313b2ea6]" started-at="2021-07-23T07:15:03Z" name="GoogleClick" finished-at="2021-07-23T07:15:06Z" duration-ms="3131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoogleClick -->
-        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:Maven1.TestNGDemoClass@1ebd319f]" started-at="2021-07-14T22:05:44Z" name="BrowserClose" finished-at="2021-07-14T22:05:48Z" duration-ms="4274" status="PASS">
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:Maven1.TestNGDemoClass@313b2ea6]" started-at="2021-07-23T07:15:06Z" name="BrowserClose" finished-at="2021-07-23T07:15:10Z" duration-ms="4685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:Maven1.TestNGExtentReports@6a2b953e]" started-at="2021-07-23T07:15:10Z" name="BrowserClose" finished-at="2021-07-23T07:15:15Z" duration-ms="4223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserClose -->
       </class> <!-- Maven1.TestNGDemoClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Maven1.TestNGExtentReports">
+        <test-method signature="GoogleSearch()[pri:0, instance:Maven1.TestNGExtentReports@6a2b953e]" started-at="2021-07-23T07:14:57Z" name="GoogleSearch" finished-at="2021-07-23T07:15:03Z" duration-ms="5841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method signature="GoogleClick()[pri:1, instance:Maven1.TestNGExtentReports@6a2b953e]" started-at="2021-07-23T07:15:03Z" name="GoogleClick" finished-at="2021-07-23T07:15:05Z" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleClick -->
+      </class> <!-- Maven1.TestNGExtentReports -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

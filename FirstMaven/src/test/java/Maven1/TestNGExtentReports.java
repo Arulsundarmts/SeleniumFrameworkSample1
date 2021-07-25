@@ -31,7 +31,7 @@ public class TestNGExtentReports {
 
 		driver.get("http://google.com");
 		WebElement SearchText = driver.findElement(By.name("q"));
-		SearchText.sendKeys("TestNG");		
+		SearchText.sendKeys("ExtentReports");		
 	}
 
 	@Test(priority = 1)
